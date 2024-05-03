@@ -1,5 +1,4 @@
 import React from 'react'
-import TotalBalanceBox from './TotalBalanceBox'
 
 const HeaderBox = ({type = 'title', title, user, subtext, }: HeaderBoxProps) => {
   return (
@@ -15,11 +14,6 @@ const HeaderBox = ({type = 'title', title, user, subtext, }: HeaderBoxProps) => 
         <p className='header-box-subtext'>
             {subtext}
         </p>
-        <TotalBalanceBox 
-            accounts={[]}
-            totalBanks={1}
-            totalCurrentBalance={1250.35}
-        />
     </div>
   )
 }
