@@ -71,6 +71,6 @@ export const logoutAccount = async () => {
     await account.deleteSession('current')
 
   } catch (error) {
-    
+    return null
   }
 }
